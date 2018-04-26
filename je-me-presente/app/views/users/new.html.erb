@@ -19,11 +19,14 @@
     <% end %>
 
     <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-    Ton nom d'utilisateur:</br>
-    <input type="text" name="user_name"></br>
-    Quelques mots à propos de toi:</br>
-    <textarea placeholder="Dis nous qui tu es en quelques mots..." cols="40" rows="5"name="bio"></textarea></br>
-    <input class="summit" type="submit" value="Create">
+
+    Prénom :</br>
+    <input type="text" name="user_name"></br><br>
+    
+    Description :</br>
+    <textarea placeholder="Dis nous qui tu es en quelques mots..." cols="40" rows="5"name="bio"></textarea></br><br>
+    
+    <input class="summit" type="submit" value="Créer un utilisateur...">
 
 </form>
 
